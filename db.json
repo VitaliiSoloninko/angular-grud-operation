@@ -9,32 +9,14 @@
     {
       "id": "2",
       "name": "Menu 2",
-      "price": 3,
+      "price": "4",
       "description": "Mildes Karotten-Bohnen-Curry mit Sonnenblumenkernen, Vollkorn-Nudeln, Eisberg-Birnen-Salat, Obst"
     },
     {
-      "id": 0,
-      "name": "123",
+      "id": "3",
+      "name": "Menu 3",
       "price": 4,
-      "description": "123"
-    },
-    {
-      "id": "5",
-      "name": "Menu 5",
-      "price": 4,
-      "description": "123465"
-    },
-    {
-      "id": "6",
-      "name": "123456",
-      "price": 4,
-      "description": "123"
-    },
-    {
-      "id": "7",
-      "name": "123",
-      "price": 4,
-      "description": "456"
+      "description": "Menu description"
     }
   ]
 }

@@ -17,4 +17,15 @@ export class FoodService {
   create(val: Food) {
     return this.httpClient.post(this.baseApiUrl, val);
   }
+
+  edit(id: number) {
+    return this.httpClient.get<Food>(`http://localhost:3000/foods/${id}`);
+  }
+
+  update(val: Food) {
+    return this.httpClient.put<Food>(
+      `http://localhost:3000/foods/${val.id}`,
+      val
+    );
+  }
 }

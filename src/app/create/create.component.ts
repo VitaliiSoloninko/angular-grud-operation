@@ -12,6 +12,7 @@ import { FoodService } from '../food.service';
 })
 export class CreateComponent {
   constructor(private foodService: FoodService, private router: Router) {}
+
   formData: Food = {
     id: 0,
     name: '',
