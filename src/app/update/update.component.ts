@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-update',
   imports: [],
   templateUrl: './update.component.html',
-  styleUrl: './update.component.scss'
+  styleUrl: './update.component.scss',
 })
 export class UpdateComponent {
-
+  update() {}
 }
