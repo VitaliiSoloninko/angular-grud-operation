@@ -6,6 +6,6 @@ import { UpdateComponent } from './update/update.component';
 export const routes: Routes = [
   { path: '', redirectTo: 'foods', pathMatch: 'full' },
   { path: 'foods', component: FoodsComponent },
-  { path: 'create', component: CreateComponent },
-  { path: 'update', component: UpdateComponent },
+  { path: 'foods/create', component: CreateComponent },
+  { path: 'foods/update', component: UpdateComponent },
 ];
