@@ -1,0 +1,16 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Menu 1",
+      "price": 4,
+      "description": "Kochei in Senfsauce, Salzkartoffeln, Rotkrautsalat, Dessert"
+    },
+    {
+      "id": 2,
+      "name": "Menu 2",
+      "price": 3,
+      "description": "Mildes Karotten-Bohnen-Curry mit Sonnenblumenkernen, Vollkorn-Nudeln, Eisberg-Birnen-Salat, Obst"
+    }
+  ]
+}
