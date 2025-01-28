@@ -8,7 +8,13 @@ import { Food } from './food';
 export class FoodService {
   constructor(private httpClient: HttpClient) {}
 
+  baseApiUrl = 'http://localhost:3000/foods';
+
   getAll() {
-    return this.httpClient.get<Food[]>('http://localhost:3000/foods');
+    return this.httpClient.get<Food[]>(this.baseApiUrl);
+  }
+
+  create(val: Food) {
+    return this.httpClient.post(this.baseApiUrl, val);
   }
 }
