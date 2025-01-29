@@ -24,6 +24,13 @@
             routerLinkActive="router-link-active"
             >Edit</a
           >
+          <button
+            type="button"
+            (click)="removeFood(food.id)"
+            class="btn btn-danger ms-2"
+          >
+            Delete
+          </button>
         </td>
       </tr>
     </tbody>

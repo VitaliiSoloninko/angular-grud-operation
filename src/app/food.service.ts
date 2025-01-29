@@ -28,4 +28,8 @@ export class FoodService {
       val
     );
   }
+
+  remove(id: number) {
+    return this.httpClient.delete<Food>(`http://localhost:3000/foods/${id}`);
+  }
 }

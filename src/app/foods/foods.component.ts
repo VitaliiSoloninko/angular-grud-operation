@@ -1,8 +1,8 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { Food } from '../food';
 import { FoodService } from '../food.service';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-foods',
@@ -17,6 +17,14 @@ export class FoodsComponent implements OnInit {
   ngOnInit(): void {
     this.foodService.getAll().subscribe((data) => {
       this.foods = data;
+    });
+  }
+
+  removeFood(id: number) {
+    this.foodService.remove(id).subscribe({
+      next: (val) => {
+        this.foods = this.foods.filter((_) => _.id != id);
+      },
     });
   }
 }

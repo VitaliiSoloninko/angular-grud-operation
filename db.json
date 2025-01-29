@@ -4,19 +4,31 @@
       "id": "1",
       "name": "Menu 1",
       "price": 4,
-      "description": "Kochei in Senfsauce, Salzkartoffeln, Rotkrautsalat, Dessert"
+      "description": "Blumenkohl-Käse-Stern, Kräuter-Rahmsauce, Reis und Möhrensalat"
     },
     {
       "id": "2",
       "name": "Menu 2",
       "price": "4",
-      "description": "Mildes Karotten-Bohnen-Curry mit Sonnenblumenkernen, Vollkorn-Nudeln, Eisberg-Birnen-Salat, Obst"
+      "description": "Vollkornnudeln mit Tomaten- Mozzarella-Sauce, Möhrensalat, Obst"
     },
     {
       "id": "3",
       "name": "Menu 3",
       "price": 4,
-      "description": "Menu description"
+      "description": "Pan. Gouda-Schnitzel mit Milchbohnen und Salzkartoffeln, Dessert"
+    },
+    {
+      "id": "4",
+      "name": "Menu 4",
+      "price": 4,
+      "description": "Reispfanne mit Erbsen, Mais, Paprika, Sonnenblumenkernen, fruchtiger Tomatenquark-Dip, Eisberg-Birnen-Salat, Obst"
+    },
+    {
+      "id": "5",
+      "name": "Menu 5",
+      "price": 4,
+      "description": " Eierfrikassee mit buntem Gemüse (Erbsen, Möhren), Salzkartoffeln, Dessert"
     }
   ]
 }
